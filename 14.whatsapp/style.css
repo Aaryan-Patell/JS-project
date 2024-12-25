@@ -1,0 +1,141 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing : border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    font-family: 'gilroy';
+    
+}
+.main{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+   
+    position: relative;
+    
+  
+   
+    
+}
+.nav .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  
+    
+}
+
+.topicon i{
+    padding: 0px 6px;
+}
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+     
+}
+.img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.img i{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    font-size: 20px;
+    color: rgb(12, 186, 114);
+}
+.img{
+    position: relative;
+    padding: 10px 20px;
+   
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.top h4{
+    margin-bottom: 5px;
+    font-weight: 900;
+    
+}
+.middle h6{
+    margin-top: 10px;
+    font-weight: 900;
+   
+}
+.story img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+    
+    
+}
+.recent{
+    padding: 0px 20px;
+}
+.story{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    
+   
+   margin-bottom: 10px;
+    gap: 20px;
+}
+.story .text{
+    pointer-events: none;
+}
+.allstatus{
+    margin-top: 20px;
+    width: 100%;
+    height: 60%;
+    
+    overflow-y: auto;
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+.full{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+   padding: 0px 20px;
+    z-index: 2;
+    display: none;
+    border-radius: 20px;
+}
+.line{
+    width: 100%;
+    height: 4px;
+    background-color: gainsboro;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.growth{
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    border-radius: 20px;
+
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#red{
+    animation-name: image;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+    
+}
+#blue{
+    animation-name: image;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+    
+}
+
+#white{
+    animation-name: image;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+    
+}
+
+#black{
+    animation-name: image;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+    
+}
+
+
+
+@keyframes image {
+    from{
+scale:0.5;
+    }
+    to{
+scale:1;       
+    }
+    
+}
